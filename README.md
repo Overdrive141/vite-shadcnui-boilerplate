@@ -13,7 +13,7 @@
 
 - React 18 that supports both TypeScript & JavaScript out of the box
   - You can use absolute imports, using `@` as `src` directory
-- Support for using shadcn UI is already added https://ui.shadcn.com as well as Tailwind CSS
+- Support for [ShadcnUI](https://ui.shadcn.com) as well as Tailwind CSS
 
 ## Usage
 
@@ -39,13 +39,6 @@ yarn build or npm run build
 
 All files you have to deploy will be located at the `dist` directory.
 
-### Run production version locally
-
-To check if everything will be ok in production before the deployment, you can run this command after `yarn build`:
-
-```sh
-yarn preview
-```
 
 ## Author
 
