@@ -1,4 +1,4 @@
-<h1 align="center">Vite React Project Boilerplate (TS/JS) w/ ShadcnUI & Tailwind CSS</h1>
+<h1 align="center">Vite React Project Boilerplate (TS/JS) (ShadcnUI & Tailwind)</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -13,7 +13,7 @@
 
 - React 18 that supports both TypeScript & JavaScript out of the box
   - You can use absolute imports, using `@` as `src` directory
-- Support for [ShadcnUI](https://ui.shadcn.com) as well as Tailwind CSS
+- Support for [ShadcnUI](https://ui.shadcn.com) & Tailwind CSS
 
 ## Usage
 
