@@ -5,17 +5,20 @@ import { DataTable } from "./components/data-table"
 import { UserNav } from "./components/user-nav"
 import { taskSchema } from "./data/schema"
 import mockTasks from './data/mockdata'
-
+import useTaskManager from '@/hooks/useTaskManager'
 
 // Simulate a database read for tasks.
 function getTasks() {
-//   const tasks = JSON.parse(mockTasks.toString())
+  //   const tasks = JSON.parse(mockTasks.toString())
 
   return z.array(taskSchema).parse(mockTasks)
 }
 
 export default function TaskPage() {
-  const tasks = getTasks()
+  const dbTasks = getTasks()
+
+  // Custom hook for deleting the task
+  const { tasks } = useTaskManager(dbTasks);
 
   return (
     <>
